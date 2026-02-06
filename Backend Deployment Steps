@@ -1,0 +1,2 @@
+gcloud builds submit --tag gcr.io/[PROJECT-ID]/inventory-backend
+gcloud run deploy inventory-backend --image gcr.io/[PROJECT-ID]/inventory-backend --platform managed
